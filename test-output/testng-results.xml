@@ -2,29 +2,29 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="99526" started-at="2015-10-24T16:52:31Z" finished-at="2015-10-24T16:54:10Z">
+  <suite name="Default suite" duration-ms="32924" started-at="2015-10-24T23:12:15Z" finished-at="2015-10-24T23:12:47Z">
     <groups>
       <group name="Firefox">
-        <method signature="ElementsTests.testAmazon()[pri:0, instance:com.sqa.ao.selenium.elements.ElementsTests@10bb83e]" name="testAmazon" class="com.sqa.ao.selenium.elements.ElementsTests"/>
+        <method signature="ElementsTests.testUpperMethod()[pri:0, instance:com.sqa.ao.selenium.elements.ElementsTests@fa7139]" name="testUpperMethod" class="com.sqa.ao.selenium.elements.ElementsTests"/>
       </group> <!-- Firefox -->
       <group name="Amazon">
-        <method signature="ElementsTests.testAmazon()[pri:0, instance:com.sqa.ao.selenium.elements.ElementsTests@10bb83e]" name="testAmazon" class="com.sqa.ao.selenium.elements.ElementsTests"/>
+        <method signature="ElementsTests.testUpperMethod()[pri:0, instance:com.sqa.ao.selenium.elements.ElementsTests@fa7139]" name="testUpperMethod" class="com.sqa.ao.selenium.elements.ElementsTests"/>
       </group> <!-- Amazon -->
       <group name="Chrome">
-        <method signature="ElementsTests.testAmazon()[pri:0, instance:com.sqa.ao.selenium.elements.ElementsTests@10bb83e]" name="testAmazon" class="com.sqa.ao.selenium.elements.ElementsTests"/>
+        <method signature="ElementsTests.testUpperMethod()[pri:0, instance:com.sqa.ao.selenium.elements.ElementsTests@fa7139]" name="testUpperMethod" class="com.sqa.ao.selenium.elements.ElementsTests"/>
       </group> <!-- Chrome -->
     </groups>
-    <test name="Default test" duration-ms="99526" started-at="2015-10-24T16:52:31Z" finished-at="2015-10-24T16:54:10Z">
+    <test name="Default test" duration-ms="32924" started-at="2015-10-24T23:12:15Z" finished-at="2015-10-24T23:12:47Z">
       <class name="com.sqa.ao.selenium.elements.ElementsTests">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.sqa.ao.selenium.elements.ElementsTests@10bb83e]" name="beforeClass" is-config="true" duration-ms="15234" started-at="2015-10-24T09:52:31Z" finished-at="2015-10-24T09:52:46Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.sqa.ao.selenium.elements.ElementsTests@fa7139]" name="beforeClass" is-config="true" duration-ms="15418" started-at="2015-10-24T16:12:15Z" finished-at="2015-10-24T16:12:30Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="testAmazon()[pri:0, instance:com.sqa.ao.selenium.elements.ElementsTests@10bb83e]" name="testAmazon" duration-ms="84275" started-at="2015-10-24T09:52:46Z" finished-at="2015-10-24T09:54:10Z">
+        <test-method status="PASS" signature="testUpperMethod()[pri:0, instance:com.sqa.ao.selenium.elements.ElementsTests@fa7139]" name="testUpperMethod" duration-ms="17492" started-at="2015-10-24T16:12:30Z" finished-at="2015-10-24T16:12:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAmazon -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.sqa.ao.selenium.elements.ElementsTests@10bb83e]" name="afterClass" is-config="true" duration-ms="1" started-at="2015-10-24T09:54:10Z" finished-at="2015-10-24T09:54:10Z">
+        </test-method> <!-- testUpperMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.sqa.ao.selenium.elements.ElementsTests@fa7139]" name="afterClass" is-config="true" duration-ms="0" started-at="2015-10-24T16:12:47Z" finished-at="2015-10-24T16:12:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
